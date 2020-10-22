@@ -1,0 +1,65 @@
+#bg-img{
+    background-image: url("img/mymainbg1.jpg")!important;
+    
+
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100%;
+
+}
+/* .overlayAL {
+    background: url("/img/bg1.jpg")!important;
+    position: absolute;
+    height: 100% ;
+    width: 100%;
+    opacity: 1 ;
+    z-index: 0;
+    margin: 0;
+  } */
+
+html {
+    width: 100vw;
+    height: 100%;
+  }
+
+
+
+#amberAA{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.25rem;
+    padding-top: 15px;
+}
+
+#navAL {
+    background-color:lightgray;
+    background-image: url("img/nvbg.jpg");
+    
+}
+
+#nav-containerAL{
+    background-image: url("img/nvbg.jpg")!important;
+}
+
+main{
+    width: auto;
+    height: auto;
+}
+
+#myMain{
+    background-color: #7586dbc9;
+    margin-top: 150px;
+    width: 80vw;
+    height: 95vh;
+}
+
+
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Homemade Apple', cursive; */
+/* font-family: 'Kaushan Script', cursive; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Sacramento', cursive; */
