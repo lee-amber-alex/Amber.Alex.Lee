@@ -67,34 +67,43 @@ main {
 #myMain {
   background-color: #42d0d59f;
   margin-top: 75px;
-  width: auto;
+  width: 80vw !important;
   height: auto;
 }
 
-#gameflix{
-    color: #991CD3;
+#gameflix {
+  color: #5c0c81;
 }
-.img-fluid{
-    height: 350px;
-    width: 350px;
-} 
+.img-fluid {
+  height: 350px;
+  width: 250px;
+}
 .img {
-    width: 100%;
-  
-  }
-#myGame{
-    color: white;
+  width: 100%;
+}
+#myGame {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.596);
+  margin-top: 75px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80vw;
 }
 #myPass {
   background-color: #1aa11a9f;
   margin-top: 75px;
-  
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80vw;
 }
 #myWeather {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.767);
   color: black;
   margin-top: 75px;
-
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80vw;
 }
 
 /* font-family: 'Caveat', cursive; */
