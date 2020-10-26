@@ -67,8 +67,8 @@ main {
 #myMain {
   background-color: #42d0d59f;
   margin-top: 75px;
-  width: 90vw;
-  height: 80vh;
+  width: auto;
+  height: auto;
 }
 
 #gameflix{
@@ -88,14 +88,13 @@ main {
 #myPass {
   background-color: #1aa11a9f;
   margin-top: 75px;
-  width: 90vw;
-  height: 80vh;
+  
 }
 #myWeather {
-  background-color: #2468e79f;
+  background-color: white;
+  color: black;
   margin-top: 75px;
-  width: 90vw;
-  height: 80vh;
+
 }
 
 /* font-family: 'Caveat', cursive; */

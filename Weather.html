@@ -25,7 +25,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="bg-Weather">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      id="nav-containerAL"
+      class="navbar navbar-expand-lg navbar-light bg-light"
+    >
       <a id="amberAA" class="navbar-brand active" href="index.html"
         >Amber Alex Lee</a
       >
@@ -84,42 +87,42 @@
       </div>
     </nav>
 
-    <main class="row">
-      <div id="myWeather" class="container col-md-6">
+    <main id="myWeather" class="col-md-12">
+      <div class="container mt-5">
         <header class="border-bottom border-grey">
-          <h1 style="text-align: center" class="header pl-2 py-2">
+          <h1 style="text-align: center" class="header p-1">
             Weather Dashboard
           </h1>
         </header>
-        <section class="row pt-3">
-          <div class="col-md-12">
-            <p>
-              <img
-                class="float-left p-3"
-                src="img/me1.jpg"
-                alt="AmberLee"
-                width="250px"
-                height="355px"
-              />
-              I’ve always been an effective communicator and listener,
-              consistently cultivating solid partnerships and bridging
-              collaboration between departments with every team that I’ve
-              joined. While working in retail banking, to a senior admin
-              assistant during undergraduate schooling, to a film production
-              coordinator at Lucasfilm, to a US Census Enumerator, I’ve had the
-              pleasure and opportunity to interact and observe an assortment of
-              personalities, often presenting the need to adjust verbal and
-              written communication accordingly. The ability to effectively
-              relate to others made me very successful saleswoman, achieving a
-              standing as one of the youngest private bankers at Wells Fargo
-              within my market. These experiences frequently required extensive
-              problem-solving which I believe paved the way for the analytics
-              involved with being a strong Web Developer. Coupled with my soft
-              skills and sales experience efficiently positions me for an
-              opportunity within Business Development.
-            </p>
+        <p class="mt-2">
+          Planning a trip but want to check out the weather before packing?
+          Visit
+          <a href="https://lee-amber-alex.github.io/Weather.Dashboard/"
+            >Weather Dashboard</a
+          >
+          to get the current weather and a five day forecast. Visit the Weather
+          Dashboard github repo
+          <a href="https://github.com/lee-amber-alex/Weather.Dashboard"
+            >here.</a
+          >
+        </p>
+
+        <picture class="row pt-2">
+          <div class="col-md-6 p-2">
+            <img class="img-fluid img" src="img/wd.png" alt="placeholder" />
           </div>
-        </section>
+          <div class="col-md-6 p-2">
+            <img class="img-fluid img" src="img/wd2.png" alt="placeholder" />
+          </div>
+        </picture>
+        <picture class="row">
+          <div class="col-sm-6 p-2">
+            <img class="img-fluid img" src="img/wd3.png" alt="placeholder" />
+          </div>
+          <div class="col-sm-6 p-2">
+            <img class="img-fluid img" src="img/wd4.png" alt="placeholder" />
+          </div>
+        </picture>
       </div>
     </main>
     <!-- <div class="overlayAL"></div> -->
