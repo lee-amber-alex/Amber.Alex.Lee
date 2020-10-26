@@ -1,14 +1,23 @@
-#bg-img{
-    background-image: url("img/mymainbg1.jpg")!important;
-    
-
+* {
+  box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
-    width: 100vw;
-    height: 100%;
+  width: 100vw;
+  height: 100%;
+}
+#bg-img {
+  background-image: url("img/mymainbg1.jpg") !important;
+}
 
+#bg-Game {
+  background-image: url("img/gameBG.jpg") !important;
+}
+#bg-Weather {
+  background-image: url("img/weatherBG.jpg") !important;
+}
+#bg-Pass {
+  background-image: url("img/passBG.jpg") !important;
 }
 
 /* .overlayAL {
@@ -22,63 +31,62 @@ body {
   } */
 
 html {
-    width: 100vw;
-    height: 100%;
-  }
+  width: 100vw;
+  height: 100%;
+}
 
 .dropList {
-    padding-left: 5px !important;
-    padding-right: 20px !important;
+  padding-left: 5px !important;
+  padding-right: 20px !important;
 }
-.dropList:hover{
-    background-color: lightblue !important;
+.dropList:hover {
+  background-color: lightblue !important;
 }
 
-#amberAA{
-    font-family: 'Homemade Apple', cursive;
-    font-size: 2.25rem;
-    padding-top: 20px;
-    padding-left: 20px;
+#amberAA {
+  font-family: "Homemade Apple", cursive;
+  font-size: 2.25rem;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 #navAL {
-    background-color:lightgray;
-    background-image: url("img/nvbg.jpg");
-    
+  background-color: lightgray;
+  background-image: url("img/nvbg.jpg");
 }
 
-#nav-containerAL{
-    background-image: url("img/nvbg.jpg")!important;
+#nav-containerAL {
+  background-image: url("img/nvbg.jpg") !important;
 }
 
-main{
-    width: auto;
-    height: auto;
+main {
+  width: auto;
+  height: auto;
 }
 
-#myMain{
-    background-color: #42d0d59f;
-    margin-top: 75px;
-    width: 90vw;
-    height: 80vh;
+#myMain {
+  background-color: #42d0d59f;
+  margin-top: 75px;
+  width: 90vw;
+  height: 80vh;
 }
-#myGame{
-    background-color: #0f11119f;
-    margin-top: 75px;
-    width: 90vw;
-    height: 80vh;
+#myGame {
+  background-color: #0f11119f;
+  margin-top: 75px;
+  width: 90vw;
+  height: 80vh;
 }
-#myPass{
-    background-color: #1aa11a9f;
-    margin-top: 75px;
-    width: 90vw;
-    height: 80vh;
+#myPass {
+  background-color: #1aa11a9f;
+  margin-top: 75px;
+  width: 90vw;
+  height: 80vh;
 }
-#myWeather{
-    background-color: #2468e79f;
-    margin-top: 75px;
-    width: 90vw;
-    height: 80vh;
+#myWeather {
+  background-color: #2468e79f;
+  margin-top: 75px;
+  width: 90vw;
+  height: 80vh;
 }
 
 /* font-family: 'Caveat', cursive; */
