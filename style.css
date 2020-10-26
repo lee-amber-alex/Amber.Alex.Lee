@@ -10,6 +10,7 @@ body {
     height: 100%;
 
 }
+
 /* .overlayAL {
     background: url("/img/bg1.jpg")!important;
     position: absolute;
@@ -25,12 +26,19 @@ html {
     height: 100%;
   }
 
-
+.dropList {
+    padding-left: 5px !important;
+    padding-right: 20px !important;
+}
+.dropList:hover{
+    background-color: lightblue !important;
+}
 
 #amberAA{
     font-family: 'Homemade Apple', cursive;
     font-size: 2.25rem;
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 #navAL {
@@ -50,11 +58,28 @@ main{
 
 #myMain{
     background-color: #42d0d59f;
-    margin-top: 150px;
+    margin-top: 75px;
     width: 90vw;
-    height: 95vh;
+    height: 80vh;
 }
-
+#myGame{
+    background-color: #0f11119f;
+    margin-top: 75px;
+    width: 90vw;
+    height: 80vh;
+}
+#myPass{
+    background-color: #1aa11a9f;
+    margin-top: 75px;
+    width: 90vw;
+    height: 80vh;
+}
+#myWeather{
+    background-color: #2468e79f;
+    margin-top: 75px;
+    width: 90vw;
+    height: 80vh;
+}
 
 /* font-family: 'Caveat', cursive; */
 /* font-family: 'Dancing Script', cursive; */
