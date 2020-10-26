@@ -78,6 +78,10 @@ main {
     height: 350px;
     width: 350px;
 } 
+.img {
+    width: 100%;
+  
+  }
 #myGame{
     color: white;
 }
