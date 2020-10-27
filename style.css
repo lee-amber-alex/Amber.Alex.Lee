@@ -32,9 +32,14 @@ html {
 .dropList:hover {
   background-color: lightblue !important;
 }
+h1 {
+  text-shadow: 2px 2px 5px black;
+  color: white !important;
+}
 
 #amberAA {
   font-family: "Homemade Apple", cursive;
+  text-shadow: 2px 2px 5px black;
   font-size: 2.25rem;
   padding-top: 20px;
   padding-left: 20px;
@@ -62,9 +67,9 @@ main {
   height: auto;
 }
 
-#gameflix {
+/* #gameflix {
   color: #5c0c81;
-}
+} */
 .img-fluid {
   height: 350px;
   width: 250px;
@@ -97,10 +102,3 @@ main {
   width: 80vw;
 }
 
-/* font-family: 'Caveat', cursive; */
-/* font-family: 'Dancing Script', cursive; */
-/* font-family: 'Great Vibes', cursive; */
-/* font-family: 'Homemade Apple', cursive; */
-/* font-family: 'Kaushan Script', cursive; */
-/* font-family: 'Lobster', cursive; */
-/* font-family: 'Sacramento', cursive; */
