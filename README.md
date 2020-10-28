@@ -40,4 +40,11 @@ Access my website repository [here.](https://github.com/lee-amber-alex/Amber.Ale
 
 ## Credits  
 
-Background images obtained from [freepik](http://www.freepik.com).
+Background images obtained from [freepik](http://www.freepik.com).  
+
+### Contact Me  
+ 
+Amber Alex Lee
+- [Email](lee.amber.alex@gmail.com)
+- [Github Page](https://github.com/lee-amber-alex)
+- [LinkedIn](www.linkedin.com/in/leeamberalex)
