@@ -1,7 +1,7 @@
 # Amber.Alex.Lee  
 
 ## Description
-Updated portfolio containing links to resume, contact information, GitHub and assignment examples.     
+Updated portfolio containing links to resume, contact information, GitHub and assignment examples. Technologies used include HTML, CSS, Bootstrap and Google Fonts.    
 
 ## Installation  
 
