@@ -24,12 +24,14 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="bg-Weather">
+  <body id="bg-Read">
     <nav
       id="nav-containerAL"
       class="navbar navbar-expand-lg navbar-light bg-light"
     >
-      <a id="amberAA" class="navbar-brand" href="index.html">Amber Alex Lee</a>
+      <a id="amberAA" class="navbar-brand active" href="index.html"
+        >Amber Alex Lee</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -55,15 +57,15 @@
             <a class="nav-link" href="https://www.linkedin.com/in/leeamberalex"
               >LinkedIn</a
             >
-            <li class="nav-item">
-              <a class="nav-link" href="ref/ALResume2020.pdf">Resume</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:lee.amber.alex@gmail.com"
-                >Contact</a
-              >
-            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ref/ALResume2020.pdf">Resume</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:lee.amber.alex@gmail.com"
+              >Contact</a
+            >
           </li>
           <li class="nav-item dropdown">
             <a
@@ -78,12 +80,12 @@
               My Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item dropList" href="readme.html"
-              >README Generator</a>
+                <a class="dropdown-item dropList active" href="readme.html"
+                >README Generator</a>
               <a class="dropdown-item dropList" href="GameFlix.html"
                 >GameFlix</a
               >
-              <a class="dropdown-item dropList active" href="Weather.html"
+              <a class="dropdown-item dropList" href="Weather.html"
                 >Weather Dashboard</a
               >
               <a class="dropdown-item dropList" href="Password.html"
@@ -95,44 +97,37 @@
       </div>
     </nav>
 
-    <main id="myWeather" class="col-md-12">
+    <main id="myREADME" class="col-md-12">
       <div class="container mt-5">
         <header class="border-bottom border-grey">
-          <h1 style="text-align: center" class="header p-1">
-            Weather Dashboard
-          </h1>
+          <h1 style="text-align: center" class="header p-1">README Generator</h1>
         </header>
         <p class="mt-2">
-          Planning a trip but want to check out the weather before packing?
-          Visit
-          <a href="https://lee-amber-alex.github.io/Weather.Dashboard/"
-            >Weather Dashboard</a
+            Save time by creating your project README using this command-line application that quickly and 
+            easily generates a high-quality README file.  Watch the 
+          <a id="gameflix" href="https://vimeo.com/475283514/7fb19a9a52"
+            >README Generator </a
           >
-          to get the current weather and a five day forecast. Visit the Weather
-          Dashboard github repo
-          <a href="https://github.com/lee-amber-alex/Weather.Dashboard"
-            >here.</a
-          >
+          demo to preview the application. 
         </p>
-
+        <p>
+          Visit the README Generator github repo
+          <a href="https://github.com/lee-amber-alex/README.Generator">here.</a>
+        </p>
         <picture class="row pt-2">
-          <div class="col-md-6 p-2">
-            <img class="img-fluid img" src="img/wd.png" alt="placeholder" />
+          <div class="col-md-12 p-2">
+            <img id="readmeImg"
+              class="img-fluid img"
+              src="img/readme.png"
+              alt="placeholder"
+            />
           </div>
-          <div class="col-md-6 p-2">
-            <img class="img-fluid img" src="img/wd2.png" alt="placeholder" />
-          </div>
+          
         </picture>
-        <picture class="row pb-3">
-          <div class="col-sm-6 p-2">
-            <img class="img-fluid img" src="img/wd3.png" alt="placeholder" />
-          </div>
-          <div class="col-sm-6 p-2">
-            <img class="img-fluid img" src="img/wd4.png" alt="placeholder" />
-          </div>
-        </picture>
+        
       </div>
     </main>
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script

@@ -6,6 +6,11 @@ body {
   width: 100vw;
   height: 100%;
 }
+html {
+  width: 100vw;
+  height: 100%;
+}
+
 #bg-img {
   background-image: url("img/mymainbg1.jpg") !important;
 }
@@ -19,10 +24,8 @@ body {
 #bg-Pass {
   background-image: url("img/passBG.jpg") !important;
 }
-
-html {
-  width: 100vw;
-  height: 100%;
+#bg-Read {
+  background-image: url("img/read.jpg") !important;
 }
 
 .dropList {
@@ -67,9 +70,7 @@ main {
   height: auto;
 }
 
-/* #gameflix {
-  color: #5c0c81;
-} */
+
 .img-fluid {
   height: 350px;
   width: 250px;
@@ -77,7 +78,20 @@ main {
 .img {
   width: 100%;
 }
+#readmeImg{
+  width: auto;
+  height: auto;
+  padding-bottom: 30px;
+}
 #myGame {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.596);
+  margin-top: 75px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80vw;
+}
+#myREADME {
   color: white;
   background-color: rgba(0, 0, 0, 0.596);
   margin-top: 75px;
