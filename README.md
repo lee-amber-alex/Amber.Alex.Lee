@@ -24,16 +24,24 @@ Access my website repository [here.](https://github.com/lee-amber-alex/Amber.Ale
 
 ![Resume.](screenshots/resume.png)   
 
-### Gameflix Project:  
+### Team Template Generator:  
+
+![Team.](screenshots/team.png)  
+
+### README Generator :  
+
+![Gameflix.](img/readme.png)  
+
+### Gameflix Application:  
 
 ![Gameflix.](screenshots/gameflix.png)  
 
-### Password Project:  
+### Password Generator:  
 
 ![Home Page.](screenshots/password.png)  
 
 
-### Weather Project:  
+### Weather Application:  
 
 ![Home Page.](screenshots/weather.png)  
 

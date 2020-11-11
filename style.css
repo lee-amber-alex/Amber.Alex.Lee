@@ -27,6 +27,9 @@ html {
 #bg-Read {
   background-image: url("img/read.jpg") !important;
 }
+#bg-team {
+  background-image: url("img/team.bg2.jpg") !important;
+}
 
 .dropList {
   padding-left: 5px !important;
@@ -70,7 +73,6 @@ main {
   height: auto;
 }
 
-
 .img-fluid {
   height: 350px;
   width: 250px;
@@ -78,11 +80,18 @@ main {
 .img {
   width: 100%;
 }
-#readmeImg{
+#readmeImg {
   width: auto;
   height: auto;
   padding-bottom: 30px;
 }
+
+#teamImg {
+  width: auto;
+  height: auto;
+  padding-bottom: 30px;
+}
+
 #myGame {
   color: white;
   background-color: rgba(0, 0, 0, 0.596);
@@ -94,6 +103,14 @@ main {
 #myREADME {
   color: white;
   background-color: rgba(0, 0, 0, 0.596);
+  margin-top: 75px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80vw;
+}
+#myteam {
+  color: black;
+  background-color: white;
   margin-top: 75px;
   margin-left: 10%;
   margin-bottom: 10%;
@@ -115,4 +132,3 @@ main {
   margin-bottom: 10%;
   width: 80vw;
 }
-
