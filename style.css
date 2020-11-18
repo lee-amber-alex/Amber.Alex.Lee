@@ -64,7 +64,9 @@ h1 {
   background-image: url("img/nvbg.jpg") !important;
 }
 
-
+.myPadding{
+  padding-right: 100px;
+}
 
 main {
   width: auto;
