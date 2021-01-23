@@ -5,6 +5,7 @@
 body {
   /* width: 100vw;
   height: 100%; */
+
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -13,7 +14,7 @@ body {
 
 .overlay {
   background: url("img/mymainbg1.jpg");
-  /* background-size: contain; */
+  background-size: contain;
   background-repeat: repeat;
   position: fixed;
   height: 100% !important;
@@ -22,6 +23,7 @@ body {
   z-index: 0;
   margin: 0px;
 }
+
 html {
   width: 100vw;
   height: 100%;
@@ -93,7 +95,7 @@ main {
   margin-left: 10%;
   width: 80vw !important;
   height: auto;
-  z-index: 0;
+  z-index: -1;
 }
 
 .img-fluid {
