@@ -5,12 +5,14 @@ Updated portfolio containing links to resume, contact information, GitHub and as
 
 ## Installation  
 
-Visit my website [here.](https://lee-amber-alex.github.io/Amber.Alex.Lee/)  
-Access my website repository [here.](https://github.com/lee-amber-alex/Amber.Alex.Lee)  
+Visit Amber.Alex.Lee [here.](https://lee-amber-alex.github.io/Amber.Alex.Lee/)  
+Access the project repository [here.](https://github.com/lee-amber-alex/Amber.Alex.Lee)  
 
 
 
 ## Usage  
+
+A centralized location to view a few highlighted projects.
 
 ### Home Screen:  
 
